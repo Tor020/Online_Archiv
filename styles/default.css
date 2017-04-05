@@ -1,9 +1,19 @@
 
 body{
 
-	color:black;
+	
 	background:#2c2d32; /*background should be this color*/
 	color:#777; /*text should be this color*/
 	font-family: Monaco,Bitstream Vera Sans Mono,"Lucida Console",Terminal;
 
 }
+
+button{
+		background:#2c2d32; /*background should be this color*/
+	color:#777; /*text should be this color*/
+}
+
+a{
+	color:white;
+}
+

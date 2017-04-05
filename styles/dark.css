@@ -1,6 +1,17 @@
+
 body{
 
 	color:black
 	background-color:white;
 	font-family: Monaco,Bitstream Vera Sans Mono,"Lucida Console",Terminal;
+}
+
+button{
+		color:black
+	background-color:white;
+
+}
+
+hr{
+	color:black;
 }

@@ -1,0 +1,39 @@
+a, a:active, a:hover, a:visited, a:focus{
+	text-decoration:none;
+	margin-left: 50px;
+}
+body{
+	margin-left:40px;
+}
+button, button:active, button:hover, button:focus{
+		border-style:none;
+		text-decoration:none;
+		box-sizing:none;
+		outline: none;
+}
+
+.fixed
+{
+	position:fixed;
+	display:inline;
+	right:25px;
+	top:10px;
+}
+
+.header{
+	margin-top: 15px;
+}
+
+hr {
+	margin-top:35px;
+}
+
+#light
+
+{
+	margin-right:20px;
+}
+#dark
+{
+	margin-right: 20px;
+}
