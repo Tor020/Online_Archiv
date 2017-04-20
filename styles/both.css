@@ -1,9 +1,27 @@
-a, a:active, a:hover, a:visited, a:focus{
+.link, .link:active, .link:hover, .link:visited, .link:focus{
 	text-decoration:none;
-	margin-left: 50px;
+	margin-left: 3em;
+}
+.nav{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+.navitem {
+	float: left;
+}
+li a {
+	display:block;
+	padding: .5em;
+	text-decoration: none;
+	margin-left:.2em;
+	margin-right:.1em;
 }
 body{
-	margin-left:40px;
+	margin-left:2.5em;
+	line-height:1.2em
 }
 button, button:active, button:hover, button:focus{
 		border-style:none;
@@ -11,29 +29,36 @@ button, button:active, button:hover, button:focus{
 		box-sizing:none;
 		outline: none;
 }
-
 .fixed
 {
 	position:fixed;
 	display:inline;
-	right:25px;
-	top:10px;
+	right:1em;
+	top:.5em;
 }
-
 .header{
-	margin-top: 15px;
+	margin-top: 1em;
 }
-
-hr {
-	margin-top:35px;
-}
-
 #light
-
 {
-	margin-right:20px;
+	margin-right:1.3em;
 }
 #dark
 {
-	margin-right: 20px;
+	margin-right: 1.3em;
+}
+.dead
+{
+	text-decoration: underline;
+}
+.container{
+	margin:0 16em 5em 5em;
+}
+.footer{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
 }

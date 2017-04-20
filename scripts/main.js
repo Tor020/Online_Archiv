@@ -3,6 +3,7 @@ window.onload = initate();
 
 
 	function initate() {
+		getdate();
 	    var style1 = document.getElementById("ssbtn1");
 	    var style2 = document.getElementById("ssbtn2");
 	    var style3 = document.getElementById('ssbtn3');
@@ -23,3 +24,9 @@ window.onload = initate();
 		document.getElementById('pagestyle').setAttribute('href', sheet);
 	}
 
+
+function getdate (){
+var today = new Date()
+var year = today.getFullYear()
+document.getElementById('yr').innerHTML = year;
+}

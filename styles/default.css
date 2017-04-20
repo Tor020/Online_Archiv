@@ -1,19 +1,29 @@
-
 body{
-
-	
-	background:#2c2d32; /*background should be this color*/
-	color:#777; /*text should be this color*/
+	background:#2c2d32; 
+	color:#777; 
 	font-family: Monaco,Bitstream Vera Sans Mono,"Lucida Console",Terminal;
-
 }
-
-button{
-		background:black; /*background should be this color*/
-	color:#777; /*text should be this color*/
+button
+{
+	background:black; 
+	color:#777; 
 }
-
-a{
+a
+{
 	color:white;
 }
 
+li a 
+{
+	background:black;
+	color:#777;
+}
+li a:hover
+{
+	background:white;
+}
+.current
+{
+	background:white;
+	
+}

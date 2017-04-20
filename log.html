@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/webico.ico">
+
+    <meta name="project Archicves" content="List of web projects developed by Kevin Coyle">
+    <meta name="Kevin Coyle" content="">
+    <link id="pagestyle" href="styles/default.css" rel="stylesheet" type="text/css" />
+    <link href="styles/both.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+  <body>
+
+<nav>
+  <ul class = "nav">
+    <li class = 'navitem'><a href="index.html">Front End Projects</a></li>
+    <li class = 'navitem'><a href="backend.html">Back End Projects</a></li>
+    <li class = 'navitem'><a class='current' href="log.html">Log</a></li>
+  </ul>
+</nav>
+
+    <div class = 'fixed'>
+     <button id = 'light' onclick="swapStyleSheet('styles/dark.css')">Light Theme</button>
+    <button id = 'dark' onclick="swapStyleSheet('styles/default.css')">Dark Theme</button>
+    </div>
+    
+<hr>
+  <div class = 'container'  >
+      <div class = 'header'>
+        <h2>Events involving Wordpress Personal Website as of 4-18-2017 </h2>
+        </div>
+        
+          <p>
+        Kcwebdevoh.online domain name purchased from <a href="gandi.net">gandi.net</a>
+        Purchased hosting from <a href="digitalocean.com">digitalocean</a> installed package came with ubuntu 16.04 w/ WordPress built-in. 
+        phpmyadmin via unix terminal manually installed and set up secure private/public key via <a class = 'dead' href="http://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">putty</a>
+        allowing for editing of various files via <a href="https://winscp.net/eng/index.php">sshftp</a>.
+        </p>
+       <p>
+         When I updated the updated the url address in the wordpress admin panel after setting up the domain name ssl certificate, it broke the current wordpress theme. Changing the theme
+         didn't solve the problem. While troubleshooting from WP support documentation, I editting some of the php files. None of what I did proved effective at fixing the current theme.</p>
+         <p>
+        Ultimately one of the file edits caused the website to be inaccessible by both ip address and domain name.
+        After spending several hours reading through error logs checking the web services that were running and other various debugging techniques with minimal progress towards recovery
+        it was ultimately decided to postpone moving forward with personal server setup due to it being more efficient to spend time compounding
+        Front End knowledge.
+        </p> 
+        <h3>Personal Take</h3>
+         <p>
+           Overall, I'm pretty satisfied with what I got out of this experience. I learned a lot of new things from it altogether and got to experience another big part of web development Of which I had none prior</p>
+         <p>It was my first time:
+          <ul>
+            <li>using a unix terminal to navigate system folders and install/update software </li>
+            <li>making an ssh key and using a ftp</li>
+            <li>using the wordpress backend</li>
+            <li>configuring an ssl ticket</li>
+            <li>restarting server webservices to test changes</li>
+            <li>troubleshooting via error logs</li>
+          </ul>
+          </p>
+          <p>
+           I've looked into php fundamentals but don't have a strong grasp of the syntax yet as at time of writing I'm
+           still trying to master javascript. I still have long term aspirations of being a full stack web developer and I enjoyed the new challenge this posed.
+        </p>  
+        
+  </div>
+        
+
+
+
+         <div class ='footer'>Copyright &#169; <span id='yr'></span> Kevin Coyle
+        <br>
+        For Job related Inquieries email kopp020@gmail.com
+        </div>
+<script src = 'scripts/main.js'></script>
+  </body>
+</html>
