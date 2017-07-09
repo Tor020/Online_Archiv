@@ -54,11 +54,36 @@ button, button:active, button:hover, button:focus{
 .container{
 	margin:0 16em 5em 5em;
 }
-.footer{
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
+#footer{
   text-align: center;
+}
+
+body{
+	background:#2c2d32; 
+	color:#777; 
+	font-family: Monaco,Bitstream Vera Sans Mono,"Lucida Console",Terminal;
+}
+button
+{
+	background:black; 
+	color:#777; 
+}
+a
+{
+	color:white;
+}
+
+li a 
+{
+	background:black;
+	color:#777;
+}
+li a:hover
+{
+	background:white;
+}
+.current
+{
+	background:white;
+	
 }
